@@ -1,0 +1,1426 @@
+{
+  "en": {
+    "gen": {
+      "info": "Information",
+      "finish": "To finish click ✅.",
+      "finishButton": "Finish",
+      "finishVerbose": "Click this button to finish.",
+      "cancel": "To cancel click ❌.",
+      "cancelButton": "Cancel",
+      "cancelVerbose": "Click this button to cancel.",
+      "inputButton": "Click to enter",
+      "none": "none",
+      "lists": {
+        "entry": {
+          "none": "No entries",
+          "singular": "entry",
+          "plural": "entries",
+          "type": "of type"
+        }
+      }
+    },
+    "err": {
+      "err": "Error",
+      "missingTranslation": "Missing translation",
+      "missingArgument": "Argument of type ``$0`` could not be found based on your query.",
+      "multArgsTooFew": "Too few arguments of type ``$0`` were provided.",
+      "multArgsTooMany": "Too many arguments of type ``$0`` were provided.",
+      "incorrectTime": "Incorrect time",
+      "longestDur": "The longest possible time period is $0.",
+      "noData": "No data",
+      "noDataUser": "No data was found for user $0.",
+      "nan": "``$0`` is not a proper number.",
+      "notInRange": "Number ``$0`` is not in allowed range.",
+      "tryAgain": "Please try again.",
+      "permsNotSet": "Permission level ``$0`` was not configured correctly in the bot's settings.",
+      "wrongFormat": "Your answer could not be interpreted properly.",
+      "contactAdmin": "Please contact the server administration.",
+      "noPerms": "Insufficient permissions",
+      "missingPerms": "Missing permissions",
+      "noPermsVerbose": "You do not possess the necessary permissions to use this command.",
+      "timeout": "Timed out",
+      "wrongChannel": "Commands can only be used in <#$0>.",
+      "exception": "Unhandled Exception",
+      "outage": "Temporarily Unavailable",
+      "outageVerbose": "This feature is currently under maintanance."
+    },
+    "res": {
+      "suc": "Success",
+      "warn": "Warning",
+      "fail": "Failure",
+      "saved": "All settings have been applied successfully."
+    },
+    "bot": {
+      "startup": "Startup",
+      "rebootStart": "**$0** requested a reboot :electric_plug:",
+      "rebootComplete": "Reboot concluded successfully ✅",
+      "offlineFor": "$0 has been offline $1.",
+      "prefix": "My prefix on this server is ``$0``."
+    },
+    "covid": {
+      "all": "Cases",
+      "active": "Active",
+      "newCases": "Cases today",
+      "deceased": "Deceased",
+      "newDeceased": "Deceased today",
+      "cured": "Cured",
+      "curWorld": "Current situation in the world",
+      "curCountry": "Current situation in $0"
+    },
+    "moderation": {
+      "ban": {
+        "title": "User banned",
+        "description": "User **$0** has been banned."
+      }
+    },
+    "logs": {
+      "action": {
+        "joined": "$0 joined the server",
+        "left": "$0 left the server",
+        "muted": "$0 was muted",
+        "unmuted": "$0 was unmuted",
+        "banned": "$0 was banned",
+        "unbanned": "$0 was unbanned",
+        "messageEdited": "$0 edited a message",
+        "messageDeleted": "$0 deleted a message"
+      },
+      "term": {
+        "from": "From",
+        "to": "To",
+        "in": "In",
+        "msg": "Message",
+        "by": "By"
+      }
+    },
+    "server": {
+      "setup": "Required setup",
+      "setupVerbose": "The owner of the server is required to specify valid administrator and moderator roles before any commands can be executed.",
+      "setupOwner": "Before the bot can allow for any commands to be executed, you have to specify valid administartor and moderator roles using the ``$0settings`` command.",
+      "welcome": "Welcome!",
+      "added": "Thank you for deciding to add this bot to $0, $1!\n\nBefore the bot can function completely you are required to set it up properly.\nPlease use the command ``settings`` to specify administartor and moderator roles, as well as all vital channels, and if necessary a different prefix.\nNote however that this bot will also react to commands preceeded by its discord tag (<@$2>), as well as to the ones starting with the currently set prefix (/ by default).\n\nWe are happy to be able to help your server out and we hope that you'll be satisfied with this bot's functionality.",
+      "cmdChannel": "The owner of this server has not specified a channel for commands."
+    },
+    "economy": {
+      "drops": {
+        "chest": "Chest"
+      },
+      "currencies": {
+        "coins": "coins"
+      }
+    },
+    "poll": {
+      "info": "Pick an answer using the reactions below.",
+      "ans": "Answers"
+    },
+    "roles": {
+      "given": "Role given",
+      "givenVerbose": "You have received the role **$0** in **$1**.",
+      "givenError": "An error occured while trying to give you the role **$0** in **$1**.",
+      "givenMissing": "The picked role in **$0** no longer exists.",
+      "removed": "Role removed",
+      "removedVerbose": "The role **$0** in **$1** has been removed from you.",
+      "removedError": "An error occured while trying to remove the role **$0** in **$1",
+      "removedMissing": "The picked role in **$0** no longer exists.",
+      "roles": {
+        "muted": {
+          "name": "Muted",
+          "created": "Muted role has been created automatically.",
+          "channelOverride": "Preventing muted people from talking."
+        }
+      }
+    },
+    "queries": {
+      "searchInconclusive": "Search inconclusive",
+      "multipleRoles": "Multiple roles found",
+      "specifyRole": "Please specify the exact role you mean by inputing the corresponding number in the chat. If none of the roles is the one you expected, click ❌.",
+      "confirmRole": "The exact role you specified could not be found.\nDid you mean $0",
+      "rolesFound": "Roles found",
+      "multipleChannels": "Multiple channels found",
+      "specifyChannel": "Please specify the exact channel you mean by inputing the corresponding number in the chat. If none of the channels is the one you expected, click ❌.",
+      "confirmChannel": "The exact role you specified could not be found.\nDid you mean $0",
+      "channelsFound": "Channels found",
+      "multipleUsers": "Multiple users found",
+      "specifyUser": "Please specify the exact user you mean by inputing the corresponding number in the chat. If none of the users is the one you expected, click ❌.",
+      "confirmUser": "The exact role you specified could not be found.\nDid you mean $0",
+      "usersFound": "Users found"
+    },
+    "usr": {
+      "info": {
+        "title": "Information about $0",
+        "tag": "Tag",
+        "id": "ID",
+        "accSince": "Account since",
+        "memberSince": "On the server since",
+        "roles": "Roles"
+      },
+      "presence": {
+        "title": "Presence information about $0",
+        "last": "Last seen",
+        "now": "Just now",
+        "never": "Never",
+        "status": {
+          "online": "Online 🟢",
+          "idle": "Idle 🟡",
+          "dnd": "Do not disturb 🔴",
+          "offline": "Offline ✖️"
+        },
+        "timeTotal": "In total",
+        "percentage": "Precentage"
+      },
+      "activity": {
+        "status": "Status",
+        "custom": "Custom Status",
+        "end": "ends"
+      }
+    },
+    "stats": {
+      "presence": {
+        "title": "Online users"
+      },
+      "host": {
+        "title": "Host machine usage",
+        "cpu": "CPU usage",
+        "ram": "RAM usage"
+      }
+    },
+    "settings": {
+      "term": {
+        "cat": "Categories",
+        "set": "Settings",
+        "opt": "Options",
+        "change": "Changing setting",
+        "confirm": "Confirm change",
+        "arr": {
+          "new": "Add a new entry",
+          "remove": "Remove an entry",
+          "entries": "Entries",
+          "empty": "No entries"
+        }
+      },
+      "chooseCat": "Choose a category by typing the corresponding number in the chat.",
+      "chooseSet": "Choose a setting by typing the corresponding number in the chat.",
+      "chooseOpt": "Choose an option by typing the corresponding number in the chat.",
+      "chooseNew": "Please choose a new value for **$0**.\nThe accepted formats are: $1",
+      "chooseConsent": "Do you really want to change **$0** from $1 to $2?",
+      "cat": {
+        "general": "General",
+        "roles": "Roles",
+        "channels": "Channels",
+        "colors": "Colors",
+        "durations": "Durations"
+      },
+      "settings": {
+        "prefix": "Prefix",
+        "language": "Language",
+        "greeting": "Greeting",
+        "greetings": "Greetings",
+        "autodelete": "Auto delete",
+        "visualInfo-totalUsers": "Show total users",
+        "visualInfo-onlineUsers": "Show online users",
+        "roles-admin": "Administrator",
+        "roles-mod": "Moderator",
+        "roles-music": "Music role",
+        "roles-entry": "Role applied at entry",
+        "channels-admin": "Administrational",
+        "channels-logs": "Logs",
+        "channels-lowimportancelogs": "Message logs",
+        "channels-music": "Music commands",
+        "channels-commands": "Commands",
+        "channels-welcome": "Welcome",
+        "colors-primary": "Primary",
+        "colors-success": "Success",
+        "colors-failure": "Failure",
+        "colors-warning": "Warning",
+        "timeouts-messageCollector": "Message response timeout",
+        "timeouts-reactionCollector": "Reaction response timeout",
+        "timeouts-autodelete": "Auto delete wait time"
+      }
+    },
+    "cmds": {
+      "term": {
+        "specificCmd": "Command $0",
+        "cmd": "Command",
+        "cmds": "Commands",
+        "args": "Arguments",
+        "noArgs": "Does not require any arguments",
+        "desc": "Description",
+        "opt": "Optional",
+        "mult": "Multiple",
+        "multString": "Use ``|`` to separate strings."
+      },
+      "help": {
+        "help": "Help",
+        "usage": "In order to check the proper usage for this command, use ``$0help $1``."
+      },
+      "cmds": {
+        "help": "Displays the bot's features",
+        "printdb": "Prints all or a specific database keys",
+        "reboot": "Reboots the bot",
+        "removedb": "Removes a key from database",
+        "setdb": "Sets a key in database",
+        "user": "Displays information about a specific user",
+        "usertime": "Displays information about a specific user's discord usage patterns",
+        "mute": "Mutes a user",
+        "unmute": "Unmutes a user",
+        "online": "Shows online users over time",
+        "delete": "Deletes latest messages of a specific user",
+        "settings": "Adjusts server settings",
+        "rolemenus": "Manages role menus",
+        "timers": "Manages auto-repeating messages",
+        "ping": "Pings the bot",
+        "resetdb": "Resets a database key",
+        "bot": "Displays bot information",
+        "covid": "Displays current covid situation",
+        "server": "Displays server information",
+        "stats": "Displays message statistics",
+        "daily": "Claims daily reward",
+        "profile": "Check a specific user's profile",
+        "boost": "TEMPORARY | Displays server boosters",
+        "giveaway": "Creates a giveaway",
+        "poll": "Creates a poll",
+        "quiz": "Starts a quiz game",
+        "ban": "Bans a user",
+        "clear": "Deletes a specific amount of messages",
+        "kick": "Kicks a user",
+        "info": "TEMPORARY | Displays event information",
+        "host": "Displays machine information",
+        "say": "Prints a message",
+        "play": "Plays a song",
+        "queue": "Displays the song queue",
+        "skip": "Skips the current song",
+        "stop": "Stops music playback altogether",
+        "botinfo": "Checks information about the bot"
+      },
+      "cat": {
+        "generic": "Generic",
+        "developer": "Developer",
+        "moderation": "Moderation",
+        "server": "Server",
+        "economy": "Economy",
+        "special": "Special",
+        "statistics": "Statistics",
+        "music": "Music"
+      },
+      "args": {
+        "language": {
+          "name": "language",
+          "examples": [
+            "en",
+            "de",
+            "pl"
+          ]
+        },
+        "user": {
+          "name": "user",
+          "examples": [
+            "@Samantha",
+            "Sam",
+            "305115474612584448"
+          ]
+        },
+        "channel": {
+          "name": "channel",
+          "examples": [
+            "#general_kenobi",
+            "general",
+            "411924476318711808"
+          ]
+        },
+        "role": {
+          "name": "role",
+          "examples": [
+            "@Minecraft",
+            "Mine",
+            "481129252847222794"
+          ]
+        },
+        "reason": {
+          "name": "reason",
+          "examples": [
+            "1+1=2",
+            "because yes."
+          ]
+        },
+        "count": {
+          "name": "count",
+          "examples": [
+            "3",
+            "15",
+            "287"
+          ]
+        },
+        "string": {
+          "name": "string",
+          "examples": [
+            "The quick brown fox jumps over the lazy dog."
+          ]
+        },
+        "symbol": {
+          "name": "symbol",
+          "examples": [
+            "!",
+            ".",
+            "/",
+            "yo"
+          ]
+        },
+        "duration": {
+          "name": "duration",
+          "examples": [
+            "3h",
+            "5m",
+            "2.5d"
+          ]
+        },
+        "cmd": {
+          "name": "command",
+          "examples": [
+            "help",
+            "ping"
+          ]
+        },
+        "country": {
+          "name": "country",
+          "examples": [
+            "England",
+            "Germany"
+          ]
+        },
+        "dbkey": {
+          "name": "data base key",
+          "examples": [
+            "userdata",
+            "colors"
+          ]
+        },
+        "json": {
+          "name": "json",
+          "examples": [
+            "[5,3,3]",
+            "{a:2,b:\"bob\"}"
+          ]
+        },
+        "color": {
+          "name": "color",
+          "examples": [
+            "#00FF00",
+            "0xdf4f50"
+          ]
+        }
+      }
+    },
+    "rolegiver": {
+      "title": "Role Menus",
+      "instructions": "➕ Create a new menu\n✏️ Modify existing menus\n✅ Finish",
+      "empty": "No menus have been created yet.",
+      "changepick": "Pick the role menu you want to change.\nUse ✅ to go back.",
+      "changeinstructions": "✅ Finish\n✏️ Change title\n➕ Add roles\n🔒 Change exclusivity\n📄 Change channel\n🗑️ Delete the menu\nTo remove an option, type its number in the chat.\n\nThe selected channel is $0\n$1",
+      "setonepick": "Only one role can be picked.",
+      "setmultpick": "Multiple roles can be picked.",
+      "deletetitle": "Confirm Deletion",
+      "deletemenu": "Do you really want to delete role menu ``$0``?",
+      "deleterole": "Do you really want to delete $0 from the menu?",
+      "getname": "Choose a name for the menu.",
+      "getrole": "Specify a new role\nUse ✅ when you're done.",
+      "getemoji": "Pick an emoji for $0 by reacting to this message.",
+      "emojiinuse": "This emoji is already in use.",
+      "getxor": "Do you want users to be able to pick multiple roles?",
+      "getchannel": "Specify the channel for the menu."
+    },
+    "timers": {
+      "title": "Automatically Repeating Messages",
+      "instructions": "➕ Create a new auto-repeating message\n✏️ Modify an existing message\n✅ Finish",
+      "empty": "No messages have been created yet.",
+      "change": {
+        "pick": "Pick the message that you want to change.\nUse ✅ to go back.",
+        "instructions": "✅ Finish\n✏️ Change title\n📝 Change description\n⏱️ Change frequency\n⏭️ Change time to next message\n📄 Change channel\n🗑️ Delete the message"
+      },
+      "props": {
+        "title": "Title",
+        "desc": "Description",
+        "freq": "Frequency",
+        "next": "Next Message",
+        "chan": "Channel"
+      },
+      "delete": {
+        "title": "Confirm Deletion",
+        "desc": "Do you really want to delete message ``$0``?"
+      },
+      "get": {
+        "title": "Choose a title for the message.",
+        "desc": "Choose a description for the message.",
+        "freq": "Choose how often the message is to be repeated.",
+        "next": "Choose how soon the next message is going to be sent.",
+        "chan": "Pick a channel for the message."
+      }
+    },
+    "music": {
+      "added": "Song Added",
+      "addedVerbose": "<@$0> requested the song **$1**.",
+      "occupied": "Music is already being played in another voice channel.\nJoin the same channel or wait until the bot leaves it.",
+      "nochan": "You must be in a voice channel to play music.",
+      "otherchan": "You must be in the same voice channel as te bot to play music.",
+      "novid": "No song was found based on your query.",
+      "queue": "Queue",
+      "queueVerbose": "The next songs that are going to be played.",
+      "queueEmpty": "No songs have been requested yet.\nUse the ``play`` command to add some!",
+      "songs": "Songs",
+      "play": "Playing Song",
+      "playVerbose": "Playing song **$0**.",
+      "skip": "Song Skipped",
+      "skipVerbose": "<@$0> skipped the song **$1**.",
+      "stop": "Playback Stopped",
+      "stopVerbose": "<@$0> stopped the music playback."
+    }
+  },
+  "pl": {
+    "err": {
+      "err": "Błąd",
+      "missingTranslation": "Brakujące tłumaczenie",
+      "missingArgument": "Argument typu ``$0`` nie mógł zostać znaleziony.",
+      "multArgsTooFew": "Podano zbyt mało argumentów typu ``$0``.",
+      "multArgsTooMany": "Podano zbyt wiele argumentów typu ``$0``.",
+      "incorrectTime": "Niepoprawny czas",
+      "longestDur": "Najdłuższy możliwy czas to $0.",
+      "noData": "Brak danych",
+      "noDataUser": "Nie znaleziono danych o użytkowniku $0.",
+      "nan": "``$0`` nie jest prawdidłową liczbą.",
+      "notInRange": "Liczba $0 jest poza zakresem.",
+      "tryAgain": "Proszę spróbować ponownie.",
+      "permsNotSet": "Poziom uprawnień ``$0`` nie został skonfigurowany pomyślnie w ustawieniach bota.",
+      "contactAdmin": "Skontaktuj się z administratorem serwera.",
+      "noPerms": "Niewystarczające uprawnienia",
+      "noPermsVerbose": "Nie posiadasz uprawnień, aby używać tej komendy.",
+      "timeout": "Upłynął limit czasu.",
+      "wrongChannel": "Komendy mogą być użyte jedynie w <#$0>.",
+      "wrongFormat": "Odpowiedź nie mogła zostać zinterpretowana.",
+      "exception": null,
+      "outage": null,
+      "outageVerbose": null,
+      "missingPerms": null
+    },
+    "res": {
+      "suc": "Powodzenie",
+      "warn": "Ostrzeżenie",
+      "fail": "Niepowodzenie",
+      "saved": "Wszystkie ustawienia zostały zapisane."
+    },
+    "cmds": {
+      "term": {
+        "specificCmd": "Komenda $0",
+        "cmd": "Komenda",
+        "cmds": "Komendy",
+        "args": "Argumenty",
+        "noArgs": "Nie wymaga żadnych argumentów",
+        "desc": "Opis",
+        "opt": "Opcjonalne",
+        "mult": "Wielokrotne",
+        "multString": "Użyj ``|`` aby separować bloki tekstu."
+      },
+      "help": {
+        "help": "Help",
+        "usage": "Aby sprawdzić użycie tej komendy, wpisz ``$0help $1``."
+      },
+      "cmds": {
+        "help": "Wyświetla komendy bota",
+        "printdb": "Wyświetla wszystkie lub dany klucz bota",
+        "reboot": "Restartuje bota",
+        "removedb": "Usuwa klucz z bazy danych",
+        "setdb": "Ustawia klucz w bazie danych",
+        "user": "Wyświetla informacje o danym użytkowniku",
+        "usertime": "Wyświetla informacje o użyciu Discorda przez danego użytkownika",
+        "mute": "Wycisza użytkownika",
+        "unmute": "Odcisz użytkownika",
+        "online": "Wyświetla aktywnych użytkowników w ostatnim czasie",
+        "delete": "Usuwa ostatnie wiadomości danego użytkownika",
+        "settings": "Dopasowuje ustawienia serwera",
+        "rolemenus": "Dopasowuje menu ról",
+        "timers": "Dopasowuje automatycznie powtarzające się wiadomości",
+        "ping": "Pinguje bota",
+        "resetdb": "Resetuje klucz w bazie danych",
+        "bot": "Wyświetla informacje o bocie",
+        "covid": "Wyświetla obecną sytuację covid",
+        "server": "Wyświetla informacje o serwerze",
+        "stats": "Wyświetla statystyki wiadomości",
+        "daily": "Odbiera nagrodę dzienną",
+        "profile": "Wyświetla profil danego użytkownika",
+        "boost": "W PRZEBUDOWIE | Wyświetla serwer boosterów",
+        "giveaway": "Tworzy giveaway",
+        "poll": "Tworzy ankietę",
+        "quiz": "Rozpoczyna quiz",
+        "ban": "Banuje użytkownika",
+        "clear": "Usuwa daną ilość wiadomości",
+        "kick": "Wyrzuca użytkownika",
+        "info": "W PRZEBUDOWIE | Wyświetla informajce eventowe",
+        "host": "Wyświetla informacje o maszynie",
+        "say": "Powtarza wiadomość",
+        "play": "Odtwarza piosenkę",
+        "queue": "Wyświetla kolejkę piosenek",
+        "skip": "Pomija aktualnie grany utwór",
+        "stop": "Całkowicie zatrzymuje odtwarzanie muzyki",
+        "botinfo": "Sprawdza informacje o bocie"
+      },
+      "cat": {
+        "generic": "Ogólne",
+        "developer": "Programisty",
+        "moderation": "Moderacyjne",
+        "server": "Administracyjne",
+        "economy": "Ekonomia",
+        "special": "Specjalne",
+        "statistics": "Statystyki",
+        "music": "Muzyka"
+      },
+      "args": {
+        "language": {
+          "name": "język",
+          "examples": [
+            "pl",
+            "en",
+            "de"
+          ]
+        },
+        "user": {
+          "name": "użytkownik",
+          "examples": [
+            "@Janek",
+            "Jan",
+            "5437809354755"
+          ]
+        },
+        "channel": {
+          "name": "kanał",
+          "examples": [
+            "#główny_kanał",
+            "główny",
+            "411924476318711808"
+          ]
+        },
+        "role": {
+          "name": "rola",
+          "examples": [
+            "@Administrator",
+            "Admin",
+            "481129252847222794"
+          ]
+        },
+        "reason": {
+          "name": "powód",
+          "examples": [
+            "1+1=2",
+            "gdyż tak."
+          ]
+        },
+        "count": {
+          "name": "pozytywna liczba całkowita",
+          "examples": [
+            "3",
+            "15",
+            "287"
+          ]
+        },
+        "string": {
+          "name": "tekst",
+          "examples": [
+            "Wlazł kotek na płotek."
+          ]
+        },
+        "symbol": {
+          "name": "symbol",
+          "examples": [
+            "!",
+            ".",
+            "/",
+            "yo"
+          ]
+        },
+        "duration": {
+          "name": "czas",
+          "examples": [
+            "3h",
+            "5m",
+            "2.5d"
+          ]
+        },
+        "cmd": {
+          "name": "komenda",
+          "examples": [
+            "help",
+            "ping"
+          ]
+        },
+        "country": {
+          "name": "kraj",
+          "examples": [
+            "Poland",
+            "Germany"
+          ]
+        },
+        "dbkey": {
+          "name": "klucz bazy danych",
+          "examples": [
+            "userdata",
+            "colors"
+          ]
+        },
+        "json": {
+          "name": "json",
+          "examples": [
+            "[5,3,3]",
+            "{a:2,b:\"bob\"}"
+          ]
+        },
+        "color": {
+          "name": "kolor",
+          "examples": [
+            "#00FF00",
+            "0xdf4f50"
+          ]
+        }
+      }
+    },
+    "usr": {
+      "presence": {
+        "title": "Informacje o aktywności użytkownika $0",
+        "last": "Ostatnio widziany",
+        "now": "Teraz",
+        "never": "Nigdy",
+        "status": {
+          "online": "Online 🟢",
+          "idle": "Zaraz wracam 🟡",
+          "dnd": "Nie przeszkadzać 🔴",
+          "offline": "Offline ✖️"
+        },
+        "timeTotal": "Ogólnie",
+        "percentage": "Procentowo"
+      },
+      "info": {
+        "title": "Informacje o użytkowniku $0",
+        "tag": "Tag",
+        "id": "ID",
+        "accSince": "Konto od",
+        "memberSince": "Na serwerze od",
+        "roles": "Role"
+      },
+      "activity": {
+        "status": "Status",
+        "custom": "Własny Status",
+        "end": "koniec"
+      }
+    },
+    "stats": {
+      "presence": {
+        "title": "Użytkownicy online"
+      },
+      "host": {
+        "title": "Użycie maszyny hostującej",
+        "cpu": "Użycie procesora",
+        "ram": "Użycie pamięci"
+      }
+    },
+    "queries": {
+      "searchInconclusive": "Wyszukiwanie nierozstrzygające",
+      "multipleRoles": "Znaleziono wiele ról",
+      "specifyRole": "Określ dokładną rolę, którą masz na myśli, podając jej numer na czacie. Jeśli żadna z ról nie jest tą, której oczekiwałeś(aś), kliknij ❌.",
+      "confirmRole": "Nie można znaleźć roli, której szukasz.\nMiałeś(aś) na myśli $0",
+      "rolesFound": "Znalezione role",
+      "multipleChannels": "Znaleziono wiele kanałów",
+      "specifyChannel": "Określ dokładny kanał, który masz na myśli, podając jego numer na czacie. Jeśli żaden z kanałów nie jest tym, którego oczekiwałeś(aś), kliknij ❌.",
+      "confirmChannel": "Nie można znaleźć kanału, której szukasz.\nMiałeś(aś) na myśli $0",
+      "channelsFound": "Znalezione kanały",
+      "multipleUsers": "Znaleziono wiele użytkowników",
+      "specifyUser": "Określ dokładnego użytkownika, którego masz na myśli, podając jego numer na czacie. Jeśli żaden z użytkowników nie jest tym, którego oczekiwałeś(aś), kliknij ❌.",
+      "confirmUser": "Nie można znaleźć użytkownika, której szukasz.\nMiałeś(aś) na myśli $0",
+      "usersFound": "Znalezieni użytkownicy"
+    },
+    "gen": {
+      "info": "Informacja",
+      "finish": "Aby zakończyć, naciśnij ✅.",
+      "cancel": "Aby anulować, naciśnij ❌.",
+      "none": "brak",
+      "lists": {
+        "entry": {
+          "none": "Brak wpisów",
+          "singular": "wpis",
+          "plural": "wpisy(ów)",
+          "type": "typu"
+        }
+      },
+      "finishButton": null,
+      "finishVerbose": null,
+      "cancelButton": null,
+      "cancelVerbose": null,
+      "inputButton": null
+    },
+    "poll": {
+      "info": "Wybierz odpowiedź używając poniższych reakcji.",
+      "ans": "Odpowiedzi"
+    },
+    "bot": {
+      "startup": "Start",
+      "rebootStart": "**$0** rozpoczął restart :electric_plug:",
+      "rebootComplete": "Restart wykonany pomyślnie ✅",
+      "offlineFor": "$0 był offline $1.",
+      "prefix": "Mój prefiks na tym serwerze to ``$0``."
+    },
+    "economy": {
+      "drops": {
+        "chest": "Skrzynia"
+      },
+      "currencies": {
+        "coins": "monety"
+      }
+    },
+    "roles": {
+      "given": "Role przyznana",
+      "givenVerbose": "Przyznano Ci rolę **$0** na serwerze **$1**.",
+      "givenError": "Wystąpił błąd podczas próby przyznawania roli **$0** na serwerze **$1**.",
+      "givenMissing": "Wybrana rola na serwerze **$0** już nie istnieje.",
+      "removed": "Rola usunięta",
+      "removedVerbose": "Rola **$0** na serwerze **$1** została Ci odebrana.",
+      "removedError": "Wystąpił błąd podczas próby odebrania Ci roli **$0** na serwerze **$1**",
+      "removedMissing": "Wybrana rola na serwerze **$0** już nie istnieje.",
+      "roles": {
+        "muted": {
+          "name": "Wyciszony(a)",
+          "created": "Rola wycziszonych została utworzona automatycznie.",
+          "channelOverride": "Blokuje wyciszone osoby od pisania."
+        }
+      }
+    },
+    "server": {
+      "setup": "Wymagana konfiguracja",
+      "setupVerbose": "Właściciel serwera musi ustawić role administratora i moderatora zanim jakiekolwiek komendy mogą być dostępne.",
+      "setupOwner": "Zanim bot może pozwolić na wykonanie komend, musisz ustawić role administratora i moderatora komendą ``$0settings``",
+      "welcome": "Witaj!",
+      "added": "Dziękujemy, że zdecydowałeś się dodać tego bota na serwer $0, $1!\n\nJednak zanim może on funkcjonować poprawnie, musisz dokonać konfiguracji.\nUżyj komendy ``settings``, aby wyspecyfikować role administratora i moderatora, oraz wszystkie esencjalnekanał, i, jeżeli potrzebne, prefiks bota.\nTten bot reaguje też na komendy rozpoczęte jego tagiem na discordzie (<@$2>), oraz ustalony prefiks (domyślnie /).\n\nCieszymy się, że możęmy dopomóc Twojemu serwerowi i mamy nadzieję, że będziesz usatysfakcjonowany funckjami tego bota.",
+      "cmdChannel": "Właściciel serwera jeszcze nie skonfigurował kanału do komend."
+    },
+    "logs": {
+      "action": {
+        "joined": "$0 dołączył(a) do serwera",
+        "left": "$0 wyszedł/wyszła z serwera",
+        "muted": "$0 został(a) uciszony(a)",
+        "unmuted": "$0 został(a) odciszony(a)",
+        "banned": "$0 został(a) zbanowany(a)",
+        "unbanned": "$0 został(a) odbanowany(a)",
+        "messageEdited": "$0 edytował(a) wiadomość",
+        "messageDeleted": "$0 usunął/usunęła wiadomość"
+      },
+      "term": {
+        "from": "Z",
+        "to": "Na",
+        "in": "W",
+        "msg": "Wiadomość",
+        "by": "Od"
+      }
+    },
+    "settings": {
+      "term": {
+        "cat": "Kategorie",
+        "set": "Ustawienia",
+        "opt": "Opcje",
+        "change": "Zmiana ustawienia",
+        "confirm": "Potwierdzenie zmiany",
+        "arr": {
+          "new": null,
+          "remove": null,
+          "entries": null,
+          "empty": null
+        }
+      },
+      "chooseCat": "Wybierz kategorię wpisując jej numer na czacie.",
+      "chooseSet": "Wybierz ustawienie wpisując jego numer na czacie.",
+      "chooseOpt": "Wybierz opcję wpisując jego numer na czacie.",
+      "chooseNew": "Wybierz nowy wpis dla **$0**.\nAkceptowalne formaty to: $1",
+      "chooseConsent": "Czy na pewno chcesz zmienić **$0** z $1 na $2?",
+      "cat": {
+        "general": "Ogólne",
+        "roles": "Role",
+        "channels": "Kanały",
+        "colors": "Kolory",
+        "durations": "Czas"
+      },
+      "settings": {
+        "prefix": "Prefiks",
+        "language": "Język",
+        "autodelete": "Automatyczne usuwanie",
+        "visualInfo-totalUsers": "Licznik wszystkich użytkowników",
+        "visualInfo-onlineUsers": "Licznik użytkowników online",
+        "roles-admin": "Administrator",
+        "roles-mod": "Moderator",
+        "roles-music": "Rola do muzyki",
+        "channels-admin": "Administracyjny",
+        "channels-logs": "Logi",
+        "channels-lowimportancelogs": "Logi wiadomości",
+        "channels-music": "Komendy do muzyki",
+        "channels-commands": "Komendy",
+        "channels-welcome": "Powitania",
+        "colors-primary": "Główny",
+        "colors-success": "Powodzenie",
+        "colors-failure": "Niepowodzenie",
+        "colors-warning": "Ostrzeżenie",
+        "timeouts-messageCollector": "Oczekiwanie odpowiedzi tekstowej",
+        "timeouts-reactionCollector": "Oczekiwanie reakcji",
+        "timeouts-autodelete": "Czekanie przed automatycznym usunięciem",
+        "greeting": null,
+        "roles-entry": null,
+        "greetings": null
+      }
+    },
+    "covid": {
+      "all": "Przypadki",
+      "active": "Aktywne przypadki",
+      "newCases": "Przypadki dziś",
+      "deceased": "Zgony",
+      "newDeceased": "Zgony dziś",
+      "cured": "Wyzdrowienia",
+      "curWorld": "Aktualna sytacja na świecie",
+      "curCountry": "Aktualna sytuacja w $0"
+    },
+    "rolegiver": {
+      "title": "Menu Ról",
+      "instructions": "➕ Stwórz nowe menu\n✏️ Edytuj istniejące menu\n✅ Zakończ",
+      "empty": "Żadne menu nie zostały jeszcze stworzone.",
+      "changepick": "Wybierz menu ról, które chcesz zmenić.\nUżyj ✅, aby anulować.",
+      "changeinstructions": "✅ Zakończ\n✏️ Zmień tytuł\n➕ Dodaj role\n🔒 Zmień ekskluzywność\n📄 Zmień kanał\n🗑️ Usuń menu\nAby usunąć daną opcję, podaj jej numer.\n\nWybrany kanał to $0\n$1",
+      "setonepick": "Użytkownik może wybrać tylko jedną rolę.",
+      "setmultpick": "Użytkownik może wybrać wiele ról.",
+      "deletetitle": "Potwierdź Usunięcie",
+      "deletemenu": "Czy na pewno chcesz usunąć menu ``$0``?",
+      "deleterole": "Czy na prwno chcesz usunąć rolę $0 z menu?",
+      "getname": "Wybierz nazwę menu.",
+      "getrole": "Wybierz nową rolę\nUżyj ✅, aby zakończyć.",
+      "getemoji": "Zareaguj na tą wiadomość, aby wybrać emoji dla $0.",
+      "emojiinuse": "Ta emoji jest już w użyciu.",
+      "getxor": "Czy chcesz, aby użytkownicy mogli wybrać wiele ról?",
+      "getchannel": "Wybierz kanał dla menu."
+    },
+    "music": {
+      "added": "Dodano utwór",
+      "addedVerbose": "<@$0> poprosił o utwór **$1**.",
+      "occupied": "Utwór jest już odtwarzany na innym kanale głosowym.\nDołącz do tego samego kanału lub poczekaj, aż bot go opuści.",
+      "nochan": "Musisz być na kanale głosowym, żeby odtwarzać muzykę.",
+      "novid": "Nie znaleziono utworu na podstawie twojego zapytania.",
+      "queue": "Kolejka",
+      "queueVerbose": "Następne utwory, które będą odtwarzane.",
+      "queueEmpty": "Nie poproszono jeszcze o żaden utwór\nUżyj polecenia ``play`` aby je dodać!",
+      "songs": "Utwory",
+      "play": "Odtwarzanie utworu",
+      "playVerbose": "Odtwarzany utwór **$0**.",
+      "otherchan": "Aby odtwarzać muzykę, musisz być na tym samym kanale głosowym, co bot.",
+      "skip": "Utwór pominięty",
+      "skipVerbose": "<@$0> pominął utwór **$1**.",
+      "stop": "Odtwarzanie zatrzymane",
+      "stopVerbose": "<@$0> zatrzymał odtwarzanie muzyki"
+    },
+    "timers": {
+      "title": "Automatycznie powtarzane wiadomości",
+      "instructions": "➕ Utwórz nową, automatycznie powtarzającą się wiadomość\n✏️ Zmodyfikuj istniejącą wiadomość\n✅ Zakończ",
+      "empty": "Nie utworzono jeszcze żadnych wiadomości.",
+      "change": {
+        "pick": "Wybierz wiadomość, którą chcesz zmienić.\nUżyj ✅ aby wrócić.",
+        "instructions": "✅ Zakończ\n✏️ Zmień tytuł\n📝 Zmień opis\n⏱️ Zmień częstotliwość\n⏭️ Zmień czas do następnej wiadomości\n📄 Zmień kanał\n🗑️ Usuń wiadomość"
+      },
+      "props": {
+        "title": "Tytuł",
+        "desc": "Opis",
+        "freq": "Częstotliwość",
+        "next": "Następna wiadomość",
+        "chan": "Kanał"
+      },
+      "changeinstructions": null,
+      "delete": {
+        "title": "Potwierdź usunięcie",
+        "desc": "Czy na pewno chcesz usunąć wiadomość ``$0``?"
+      },
+      "get": {
+        "title": "Wybierz tytuł wiadomości.",
+        "desc": "Wybierz opis wiadomości.",
+        "freq": "Wybierz, jak często wiadomość ma być powtarzana.",
+        "next": "Wybierz, jak szybko ma zostać wysłana następna wiadomość.",
+        "chan": "Wybierz kanał dla wiadomości."
+      }
+    },
+    "moderation": {
+      "ban": {
+        "title": null,
+        "description": null
+      }
+    }
+  },
+  "de": {
+    "gen": {
+      "info": "Information",
+      "finish": "Um zu beenden, wählen Sie ✅.",
+      "cancel": "Um zu abbrechen, wählen Sie ❌.",
+      "none": "keine",
+      "lists": {
+        "entry": {
+          "none": null,
+          "singular": null,
+          "plural": null,
+          "type": null
+        }
+      },
+      "finishButton": null,
+      "finishVerbose": null,
+      "cancelButton": null,
+      "cancelVerbose": null,
+      "inputButton": null
+    },
+    "err": {
+      "err": "Fehler",
+      "missingTranslation": "Fehlende Übersetzung",
+      "missingArgument": "Argument des Typs ``$0`` konnte in Ihrer Nachricht nicht gefunden werden.",
+      "multArgsTooFew": "Zu wenige Argumente des Typs ``$0``.",
+      "multArgsTooMany": "Zu viele Argumente des Typs ``$0``.",
+      "incorrectTime": "Falsche Zeit",
+      "longestDur": "Die längste möglische Zeitperiode ist $0",
+      "noData": "Keine Daten",
+      "noDataUser": "Es sind für den Mitglied $0 keine Daten vorhanden.",
+      "nan": "``$0`` ist keine gültige Nummer.",
+      "notInRange": "Die Nummer ``$0`` befindet sich außerhalb dem Umfang.",
+      "tryAgain": "Versuchen Sie bitte erneut.",
+      "permsNotSet": "Erlaubnisstufe ``$0`` wurde nicht korrekt konfiguriert.",
+      "wrongFormat": "Ihre Antwort konnte nicht interpretiert werden.",
+      "contactAdmin": "Wenden Sie sich an den Serverleiter.",
+      "noPerms": "Unausreichende Erlaubnisstufe",
+      "noPermsVerbose": "Sie besitzen nicht die benötigte Erlaubnisstufe, um diesen Befehl zu verwenden.",
+      "timeout": "Die Antwortwartezeit ist ausgelaufen.",
+      "wrongChannel": "Befehle dürfen nur in <#$0> benutzt werden.",
+      "exception": null,
+      "outage": null,
+      "outageVerbose": null,
+      "missingPerms": null
+    },
+    "res": {
+      "suc": "Erfolg",
+      "warn": "Achtung",
+      "fail": "Fehlschlag",
+      "saved": "Alle Einstellungen wurden erfolgreich gespeichert."
+    },
+    "bot": {
+      "startup": "Start",
+      "rebootStart": "**$0** hate einen Neustart :electric_plug: angefordert",
+      "rebootComplete": "Der Neustart wurde erfolgreich durchgeführt ✅",
+      "offlineFor": "$0 war offline $1.",
+      "prefix": "Mein prefix auf diesem Server ist ``$0``."
+    },
+    "covid": {
+      "all": "Alle Fälle",
+      "active": "Aktive Fälle",
+      "newCases": "Heutige Fälle",
+      "deceased": "Gestorbene",
+      "newDeceased": "Heute Gestorbene",
+      "cured": "Geheilte",
+      "curWorld": "Die aktuelle Lage auf der Welt",
+      "curCountry": "Die aktuelle Lage in $0"
+    },
+    "logs": {
+      "action": {
+        "joined": "$0 ist dem Server beigetreten",
+        "left": "$0 hat den Server verlassen",
+        "muted": "$0 wurde stummgeschalten",
+        "unmuted": "$0 wurde lautgeschalten",
+        "banned": "$0 wurde verbannt",
+        "unbanned": "$0 wurde entbannt",
+        "messageEdited": "$0 hate eine Nachricht bearbeitet",
+        "messageDeleted": "$0 hat eine Nachricht gelöscht"
+      },
+      "term": {
+        "from": "Von",
+        "to": "Bis",
+        "in": "In",
+        "msg": "Nachricht",
+        "by": "Von"
+      }
+    },
+    "server": {
+      "setup": "Notwendige Konfiguration",
+      "setupVerbose": "Der Serverleiter muss zuerst gültige Administrator- und Moderatorrollen bestimmen, bevor jegliche Befehle ausgeführt werden dürfen.",
+      "setupOwner": "Bevor jegliche Befehle ausgeführt werden dürfen, müssen Sie gültige Administrator- und Moderatorrollen bestimmen. Verwenden sie dafür den ``$0settings`` Befehl.",
+      "welcome": "Willkommen!",
+      "added": "Wir bedanken uns dafür, dass sie diesen Bot zum $0 hinzugefügt haben, $1!\n\nBevor der Bot jedoch benutzt werden kann, müssen sie eine Konfiguration durchführen.\nVerwenden Sie dazu den Befehl ``settings``. Wichtig ist es, gültige Administrator- und Moderatorrollen festzusetzen, und auch alle Kernkanäle, gegebenfalls auch den Prefix.\nBeachten Sie, dass der Bot nicht nur auf den Prefix reagiert (Standardmäßig /), sondern auch auf Befehle, von welchen sein Discordtag steht (<@$2>)\n\nWir freuen uns bei der Erweiterung Ihres Server Beistand zu leisten und hoffen, dass Sie mit den Funktionen dieses Bots zufrieden sein werden.",
+      "cmdChannel": "Der Serverleiter hat noch keinen Kanal für Befehle konfiguriert."
+    },
+    "economy": {
+      "drops": {
+        "chest": "Kiste"
+      },
+      "currencies": {
+        "coins": "Münzen"
+      }
+    },
+    "poll": {
+      "info": "Wählen Sie eine Antwort mithilfe der Reaktionen unter dieser Nachricht.",
+      "ans": "Antworten"
+    },
+    "roles": {
+      "given": "Rolle zugeteilt",
+      "givenVerbose": "Ihnen wurde die Rolle **$0** auf dem Server **$1** zugeteilt.",
+      "givenError": "Es ist bei dem Versuch, Ihnen die Rolle **$0** auf dem Server **$1** zuzuteilen, ein Fehler aufgetreten.",
+      "givenMissing": "Die ausgewähle Rolle $0 liegt nicht mehr vor.",
+      "removed": "Rolle entfernt",
+      "removedVerbose": "Die Rolle **$0** auf dem Server **$1** wurde von Ihnen entfernt.",
+      "removedError": "Es ist bei dem Versuch, die Rolle **$0** auf dem Server **$1** von Ihnen zu entfernen, ein Fehler aufgetreten.",
+      "removedMissing": "Die ausgewähle Rolle $0 liegt nicht mehr vor.",
+      "roles": {
+        "muted": {
+          "name": "Stummgeschalten",
+          "created": "Die Stummschaltrolle wurde automatisch erstellt.",
+          "channelOverride": "Schaltet den Mitglied stumm."
+        }
+      }
+    },
+    "queries": {
+      "searchInconclusive": "Suche unschlüssig",
+      "multipleRoles": "Mehrere Rollen gefunden",
+      "specifyRole": "Bitte bestimmen Sie, genau welche Rolle Sie gemeint haben, indem Sie die entsprechende Nummer in den Chat schreiben. Falls keine von den unteren Rollen die Richtige ist, drücken Sie auf ❌.",
+      "confirmRole": "Es konnte keine exakte Rolle gefunden werden.\nMeinten Sie $0?",
+      "rolesFound": "Gefundene Rollen",
+      "multipleChannels": "Mehrere Kanäle gefunden",
+      "specifyChannel": "Bitte bestimmen Sie, genau welchen Kanal Sie gemeint haben, indem Sie die entsprechende Nummer in den Chat schreiben. Falls keiner von den unteren Kanälen der Richtige ist, drücken Sie auf ❌.",
+      "confirmChannel": "Es konnte kein exakter Kanal gefunden werden.\nMeinten Sie $0?",
+      "channelsFound": "Gefundene Kanäle",
+      "multipleUsers": "Mehrere Mitglieder gefunden",
+      "specifyUser": "Bitte bestimmen Sie, genau welchen Mitglied Sie gemeint haben, indem Sie die entsprechende Nummer in den Chat schreiben. Falls keiner von den unteren Mitgliedern der Richtige ist, drücken Sie auf ❌.",
+      "confirmUser": "Es konnte kein exakter Mitglied gefunden werden.\nMeinten Sie $0?",
+      "usersFound": "Gefundene Mitglieder"
+    },
+    "usr": {
+      "info": {
+        "title": "Informationen über $0",
+        "tag": "Tag",
+        "id": "ID",
+        "accSince": "Konto seit",
+        "memberSince": "Auf dem Server seit",
+        "roles": "Rollen"
+      },
+      "presence": {
+        "title": "Verfügbarkeitsinformationen über $0",
+        "last": "Zuletzt gesehen",
+        "now": "Jetzt",
+        "never": "Noch nie",
+        "status": {
+          "online": "Online 🟢",
+          "idle": "Abwesend 🟡",
+          "dnd": "Bitte nicht stören 🔴",
+          "offline": "Offline ✖️"
+        },
+        "timeTotal": "Insgesamt",
+        "percentage": "Prozentual"
+      },
+      "activity": {
+        "status": "Status",
+        "custom": "Eigener Status",
+        "end": "endet"
+      }
+    },
+    "stats": {
+      "presence": {
+        "title": "Verfügbare Mitglieder"
+      },
+      "host": {
+        "title": "Hostmaschinenverwendung",
+        "cpu": "CPU-Verwendung",
+        "ram": "RAM-Verwendung"
+      }
+    },
+    "settings": {
+      "term": {
+        "cat": "Kategorien",
+        "set": "Einstellungen",
+        "opt": "Optionen",
+        "change": "Einstellungbearbeitung",
+        "confirm": "Änderungszustimmung",
+        "arr": {
+          "new": null,
+          "remove": null,
+          "entries": null,
+          "empty": null
+        }
+      },
+      "chooseCat": "Wählen sie eine Kategorie, indem Sie die entsprechende Nummer in den Chat schreiben.",
+      "chooseSet": "Wählen sie eine Einstellung, indem Sie die entsprechende Nummer in den Chat schreiben.",
+      "chooseOpt": "Wählen sie eine Option, indem Sie die entsprechende Nummer in den Chat schreiben.",
+      "chooseNew": "Bitte wählen Sie einen neuen Wert für **$0**.\nDie zugestattenen Formate sind: $1",
+      "chooseConsent": "Wollen Sie **$0** wirklich von $1 auf $2 umstellen?",
+      "cat": {
+        "general": "Allgemeines",
+        "roles": "Rollen",
+        "channels": "Kanäle",
+        "colors": "Farben",
+        "durations": "Zeit"
+      },
+      "settings": {
+        "prefix": "Prefix",
+        "language": "Sprache",
+        "autodelete": "Automatisches Löschen",
+        "visualInfo-totalUsers": "Anzeige für alle Mitglieder",
+        "visualInfo-onlineUsers": "Anzeige für verfügbare Mitglieder",
+        "roles-admin": "Administrator",
+        "roles-mod": "Moderator",
+        "roles-music": "Musikrolle",
+        "channels-admin": "Serverleitung",
+        "channels-logs": "Logs",
+        "channels-lowimportancelogs": "Wenig wichtige Logs",
+        "channels-music": "Musikbefehle",
+        "channels-commands": "Befehle",
+        "channels-welcome": "Willkommenskanal",
+        "colors-primary": "Primärfarbe",
+        "colors-success": "Erfolg",
+        "colors-failure": "Warnung",
+        "colors-warning": "Misserfolg",
+        "timeouts-messageCollector": "Schritftantwortwartezeit",
+        "timeouts-reactionCollector": "Reaktionantwortwartezeit",
+        "timeouts-autodelete": "Antwortwartezeit",
+        "greeting": null,
+        "roles-entry": null,
+        "greetings": null
+      }
+    },
+    "cmds": {
+      "term": {
+        "specificCmd": "Befehl $0",
+        "cmd": "Befehl",
+        "cmds": "Befehle",
+        "args": "Argumente",
+        "noArgs": "Verlangt keine Argumente",
+        "desc": "Beschreibung",
+        "opt": "Optional",
+        "mult": "Mehrere",
+        "multString": "Verwenden Sie ``|``, um Zeichenketten voneinander zu trennen."
+      },
+      "help": {
+        "help": "Hilfe",
+        "usage": "Um Hilfe für diesen Befehl zu erhalten, verwenden Sie ``$0help $1``."
+      },
+      "cmds": {
+        "help": "Zeigt die Befehle des Bots",
+        "printdb": "Druckt die Namen oder den Wert eines bestimmten Datenbankschlüssel",
+        "reboot": "Startet den Bot neu",
+        "removedb": "Löscht einen Datenbankschlüssel",
+        "setdb": "Setzt einen Datenbankschlüssel",
+        "user": "Zeigt Informationen über einen bestimmten Mitglied",
+        "usertime": "Zeigt Verfügbarkeitsinformationen aller oder eines bestimmten Mitglieds",
+        "mute": "Schaltet einen Mitglied stumm",
+        "unmute": "Schaltet einen Mitglied laut",
+        "online": "Zeigt Verfügbarkeitsinformationen aller oder eines bestimmten Mitglieds",
+        "delete": "Löscht die neusten Nachrichten eines bestimmten Mitglieds",
+        "settings": "Öffnet die Boteinstellungen",
+        "rolemenus": "Öffnet die Rollenverteilereinstellungen",
+        "timers": "Öffnet die Einstellungen der automatisch wiederholenden Nachrichten",
+        "ping": "Pingt den Bot an",
+        "resetdb": "Setzt einen Datenbankschlüssel auf den Startwert zurück",
+        "bot": "Zeigt Informationen über dem Bot",
+        "covid": "Zeigt die aktuelle COVID-19-Lage",
+        "server": "Zeigt Informationen über dem Server",
+        "stats": "Zeigt die Nachrichtstatistiken des Servers",
+        "daily": "Nimmt die Tagesbelohnung an",
+        "profile": "Zeigt den Profil eines bestimmten Mitglieds",
+        "boost": "Diesen Befehl bitte nicht verwednden",
+        "giveaway": "Erstellt einen Giveaway",
+        "poll": "Erstellt eine Umfrage",
+        "quiz": "Diesen Befehl bitte nicht verwednden",
+        "ban": "Verbannt einen Mitglied",
+        "clear": "Löscht eine bestimmte Anzahl an Nachrichten",
+        "kick": "Kickt einen Mitglied",
+        "info": "Diesen Befehl bitte nicht verwednden",
+        "host": "Zeigt Informationen über der Hostmaschine",
+        "say": "Schickt eine Nachricht",
+        "play": "Spielt ein Lied ab",
+        "queue": "Zeigt die Liederreihenfolge",
+        "skip": null,
+        "stop": null,
+        "botinfo": null
+      },
+      "cat": {
+        "generic": "Allgemeines",
+        "developer": "Entwickler",
+        "moderation": "Moderation",
+        "server": "Server",
+        "economy": "Wirtschaft",
+        "special": "Extra",
+        "statistics": "Statistiken",
+        "music": "Musik"
+      },
+      "args": {
+        "language": {
+          "name": "Sprache",
+          "examples": [
+            "de",
+            "en",
+            "pl"
+          ]
+        },
+        "user": {
+          "name": "Mitglied",
+          "examples": [
+            "@Maximiliam",
+            "Max",
+            "305115474612584448"
+          ]
+        },
+        "channel": {
+          "name": "Kanal",
+          "examples": [
+            "#hauptkanal",
+            "haupt",
+            "411924476318711808"
+          ]
+        },
+        "role": {
+          "name": "Rolle",
+          "examples": [
+            "@Minecraft",
+            "Mine",
+            "481129252847222794"
+          ]
+        },
+        "reason": {
+          "name": "Grund",
+          "examples": [
+            "1+1=2",
+            "weil"
+          ]
+        },
+        "count": {
+          "name": "Anzahl",
+          "examples": [
+            "3",
+            "15",
+            "287"
+          ]
+        },
+        "string": {
+          "name": "Zeichenkette",
+          "examples": [
+            "Alle meine Entchen schwimmen auf dem See."
+          ]
+        },
+        "symbol": {
+          "name": "Symbol",
+          "examples": [
+            "!",
+            ".",
+            "/",
+            "hey"
+          ]
+        },
+        "duration": {
+          "name": "Dauer",
+          "examples": [
+            "3h",
+            "5m",
+            "2.5d"
+          ]
+        },
+        "cmd": {
+          "name": "Befehl",
+          "examples": [
+            "help",
+            "ping"
+          ]
+        },
+        "country": {
+          "name": "Land",
+          "examples": [
+            "Germany",
+            "England"
+          ]
+        },
+        "dbkey": {
+          "name": "Datenbankschlüssel",
+          "examples": [
+            "userdata",
+            "colors"
+          ]
+        },
+        "json": {
+          "name": "json",
+          "examples": [
+            "[5,3,3]",
+            "{a:2,b:\"bob\"}"
+          ]
+        },
+        "color": {
+          "name": "Farbe",
+          "examples": [
+            "#00FF00",
+            "0xdf4f50"
+          ]
+        }
+      }
+    },
+    "rolegiver": {
+      "title": "Rollenverteiler",
+      "instructions": "➕ Neuen Verteiler erstellen\n✏️ Einen Verteiler bearbeiten\n✅ Fertig",
+      "empty": "Es wurden noch keine Verteiler erstellt",
+      "changepick": "Wählen Sie den Verteiler, den Sie bearbeiten möchten.\nVerwenden Sie ✅, um zurückzugehen.",
+      "changeinstructions": "✅ Fertig\n✏️ Titel ändern\n➕ Rollen hinzufügen\n🔒 Ausschließlichkeit ändern\n📄 Kanal ändern\n🗑️ Verteiler löschen\nUm eine Rollenoption zu löschen, schreiben Sie die entsprechende Nummer in den Chat.\n\nThe selected channel is $0\n$1",
+      "setonepick": "Man kann nur eine der Rollen wählen",
+      "setmultpick": "Man kann mehrere der Rollen wählen",
+      "deletetitle": "Löschzustimmung",
+      "deletemenu": "Wollen Sie den Verteiler ``$0`` wirklich löschen?",
+      "deleterole": "Wollen Sie deie $0 wirklich von dem Menu löschen?",
+      "getname": "Wählen Sie einen Namen für den Verteiler.",
+      "getrole": "Wählen Sie eine neue Rolle.\nDrücken Sie auf ✅, wenn Sie fertig sind.",
+      "getemoji": "Wählen Sie ein Emoji für $0, indem sie auf diese Nachricht reagieren.",
+      "emojiinuse": "Dieses Emoji wird bereits verwendet.",
+      "getxor": "Wollen Sie, dass die Mitglieder mehrere dieser Rollen gleichzeitig haben können?",
+      "getchannel": "Wählen Sie einen Kanal für den Verteiler."
+    },
+    "music": {
+      "added": null,
+      "addedVerbose": null,
+      "occupied": null,
+      "nochan": null,
+      "novid": null,
+      "queue": null,
+      "queueVerbose": null,
+      "queueEmpty": null,
+      "songs": null,
+      "play": null,
+      "playVerbose": null,
+      "otherchan": null,
+      "skip": null,
+      "skipVerbose": null,
+      "stop": null,
+      "stopVerbose": null
+    },
+    "timers": {
+      "title": null,
+      "instructions": null,
+      "empty": null,
+      "change": {
+        "pick": null,
+        "instructions": null
+      },
+      "props": {
+        "title": null,
+        "desc": null,
+        "freq": null,
+        "next": null,
+        "chan": null
+      },
+      "changeinstructions": null,
+      "delete": {
+        "title": null,
+        "desc": null
+      },
+      "get": {
+        "title": null,
+        "desc": null,
+        "freq": null,
+        "next": null,
+        "chan": null
+      }
+    },
+    "moderation": {
+      "ban": {
+        "title": null,
+        "description": null
+      }
+    }
+  }
+}
