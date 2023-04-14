@@ -1,0 +1,10 @@
+.env
+.eslintrc.cjs
+dist
+.gitignore
+Dockerfile
+package-lock.json
+old
+.git
+node_modules
+.vscode

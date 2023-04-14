@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  opibot:
+    container_name: opibot
+    image: opisek/opibot
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - TOKEN=${TOKEN}
+    restart: unless-stopped
