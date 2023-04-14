@@ -29,7 +29,8 @@ module.exports = {
             "after": true
         } ],
         "@typescript-eslint/ban-ts-comment": 0,
-        "array-bracket-spacing": [ "error", "always" ]
+        "array-bracket-spacing": [ "error", "always" ],
+        "arrow-parens": [ "error", "as-needed" ]
     },
     "ignorePatterns": [ "dist", "old" ]
 };
