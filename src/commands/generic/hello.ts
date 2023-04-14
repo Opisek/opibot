@@ -1,6 +1,5 @@
-import { commandCategory } from "../../types/commandCategories";
-import { Command } from "../../types/command";
+import { Command, Category } from "../../types/command";
 
-export default new Command("hello", commandCategory.generic, message => {
+export default new Command("hello", Category.generic, message => {
     message.reply(`Hello, ${message.author}`);
 });
