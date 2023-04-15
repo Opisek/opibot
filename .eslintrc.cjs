@@ -16,7 +16,9 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        "indent": [ "error", 4 ],
+        "indent": [ "error", 4, {
+            "SwitchCase": 1
+        }],
         "linebreak-style": [ "error", "unix" ],
         "quotes": [ "error", "double" ],
         "semi": [ "error", "always" ],
@@ -27,10 +29,20 @@ module.exports = {
         "comma-spacing": [ "error", {
             "before": false,
             "after": true
-        } ],
+        }],
         "@typescript-eslint/ban-ts-comment": 0,
-        "array-bracket-spacing": [ "error", "always" ],
-        "arrow-parens": [ "error", "as-needed" ]
+        "array-bracket-spacing": [ "error", "always", {
+            "objectsInArrays": false,
+            "arraysInArrays": false
+        }],
+        "arrow-parens": [ "error", "as-needed" ],
+        "keyword-spacing": [ "error", {
+            "before": true,
+            "after": true
+        }],
+        "object-curly-spacing": [ "error", "always", {
+            "objectsInObjects": false
+        }]
     },
     "ignorePatterns": [ "dist", "old" ]
 };

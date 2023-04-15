@@ -8,4 +8,21 @@ services:
       dockerfile: Dockerfile
     environment:
       - TOKEN=${TOKEN}
+      - DB_USERNAME=opibot
+      - DB_PASSWORD=opibot
+      - DB_HOST=opibot-postgres
+      - DB_PORT=5432
+      - DB_DATABASE=opibot
+    restart: unless-stopped
+    depends_on:
+      - opibot-postgres
+  opibot-postgres:
+    container_name: opibot-postgres
+    image: postgres:15
+    volumes:
+      - /opt/opibot/postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=opibot
+      - POSTGRES_PASSWORD=opibot
+      - POSTGRES_DB=opibot
     restart: unless-stopped
