@@ -4,4 +4,6 @@ const commands = [
     hello    
 ];
 
-export default new Map(commands.map(command => [ command.name, command ]));
+export const array = commands;
+export const map = new Map(commands.map(command => [ command.name, command ]));
+export const slash = commands.map(command => ({ name: command.name, description: command.description }));

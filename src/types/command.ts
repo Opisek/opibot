@@ -1,12 +1,14 @@
-import { Message } from "discord.js";
+import { CacheType, ChatInputCommandInteraction } from "discord.js";
 
 export class Command {
     name: string;
+    description: string;
     category: Category;
-    run: (message: Message<boolean>) => void;
+    run: (message: ChatInputCommandInteraction<CacheType>) => void;
 
-    constructor(name: string, category: Category, callback: (message: Message<boolean>) => void) {
+    constructor(name: string, description: string, category: Category, callback: (interaction: ChatInputCommandInteraction<CacheType>) => void) {
         this.name = name;
+        this.description = description;
         this.category = category;
         this.run = callback;
     }
