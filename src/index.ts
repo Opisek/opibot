@@ -1,14 +1,10 @@
 import dotenv from "dotenv";
-import { Client, GatewayIntentBits, REST, Routes } from "discord.js";
+import { Client, REST, Routes } from "discord.js";
 import * as commands from "./modules/commands";
 
 dotenv.config();
 
-const client = new Client({intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent
-]});
+const client = new Client({intents: []});
 
 client.login(process.env.TOKEN);
 
